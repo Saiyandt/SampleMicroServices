@@ -1,0 +1,12 @@
+server:
+  port: 8099
+
+security:
+  user:
+    name: admin
+    password: admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka/
